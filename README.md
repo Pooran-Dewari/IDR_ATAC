@@ -1,7 +1,7 @@
 # IDR_ATAC
 
 This script takes 2 or more ATAC narrowPeak files & performs IDR analysis on them (in pairwise fashion) \
-Finally it merges the idr files into one consensus peak file (defition: a peak that is present in at least two replicates) \
+Finally it merges the idr files into one consensus peak file (defition: a peak that is present in at least two replicates)
 
 ## How use the script: 
  - download the idr_ATAC.sh script to a directory containing your ATAC narrowPeak replicates \
