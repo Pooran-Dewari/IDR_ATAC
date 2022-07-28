@@ -54,7 +54,6 @@ do
          echo "       - $i"
          echo "       - $j"
          echo "--------------------------------"
-         echo $REP1 $REP2
 	idr --samples $i $j \
 	    --input-file-type narrowPeak \
 	    --rank p.value \
