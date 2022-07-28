@@ -1,10 +1,10 @@
-#sort narrowPeak
 #this one is written based on filename for Salmon ATAC peaks
 #script might not work if filenames are not in compliance to the following format
  #1_Late_blastulation_R1.mLb.clN_peaks.narrowPeak
  #1_Late_blastulation_R2.mLb.clN_peaks.narrowPeak
  #1_Late_blastulation_R3.mLb.clN_peaks.narrowPeak
 
+#sort narrowPeak
 
 ls *narrowPeak | while read filename;
 do
