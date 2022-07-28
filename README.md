@@ -3,6 +3,18 @@
 This script takes two or more ATAC narrowPeak files & performs IDR analysis on them (in pairwise fashion) \
 Finally it merges the idr files into one consensus peak file (defition: a peak that is present in at least two replicates)
 
+## Requirement:
+### Install IDR
+- wget -c https://github.com/nboley/idr/archive/refs/tags/2.0.3.zip
+- unzip 2.0.2.zip
+- cd 2.0.2/
+- idr -h #check installation
+
+### Install bedtools using conda (I have it in environment 'intervene')
+- conda install -c bioconda bedtools
+### Install bedops
+- https://bedops.readthedocs.io/en/latest/content/installation.html
+
 ## How: 
  - download the idr_ATAC.sh script to a directory containing your ATAC narrowPeak replicates
  - how to run the script: . idr_ATAC.sh
