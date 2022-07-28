@@ -6,7 +6,7 @@ Finally it merges the idr files into one consensus peak file (defition: a peak t
 ## How use the script: 
  - download the idr_ATAC.sh script to a directory containing your ATAC narrowPeak replicates
  - how to run the script: . idr_ATAC.sh
- - Input file name should be compliant to this format (example below of three replicates)
+ - Input file name should be compliant to this format (example below of three replicates per sample)
  - 1_Late_blastulation_R1.mLb.clN_peaks.narrowPeak
  - 1_Late_blastulation_R2.mLb.clN_peaks.narrowPeak
  - 1_Late_blastulation_R3.mLb.clN_peaks.narrowPeak
