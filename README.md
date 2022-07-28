@@ -11,7 +11,7 @@ Finally it merges the idr files into one consensus peak file (defition: a peak t
 - idr -h #check installation
 
 ### Install bedtools using conda (I have it in environment 'intervene')
-- conda install -c bioconda bedtools
+- conda install -c bioconda bedtools #change line 70 of idr_ATAC.sh to your conda environment
 ### Install bedops
 - https://bedops.readthedocs.io/en/latest/content/installation.html
 
